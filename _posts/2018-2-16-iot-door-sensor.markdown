@@ -1,8 +1,8 @@
 ---
 layout: post
 title: iot door sensor
-date: 2019-1-28 15:00:20 +0300
-description: An open source, motorized table for cnc applications
+date: 2018-2-16 15:00:20 +0300
+description: An open source, sensor to monitor the front door
 img: iot_door/smart-space.jpg
 tags: [iot, arduino, electronics]
 author: Aaron Peterson
