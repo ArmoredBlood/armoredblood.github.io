@@ -22,6 +22,6 @@ Particle provides the Particle Cloud IDE which allows me to flash updates to the
 
 The code can be found in my [gitlab repo](https://gitlab.com/armoredblood/photon-stock-ticker) if you are interested.
 
-![stock-ticker-web]({{site.baseurl}}/assets/img/stock_ticker/ticker-web-page.jpg)
+![stock-ticker-web]({{site.baseurl}}/assets/img/stock_ticker/ticker-web-page.png)
 
 
