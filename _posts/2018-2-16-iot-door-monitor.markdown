@@ -3,7 +3,7 @@ layout: post
 title: lazr_bed
 date: 2019-1-28 15:00:20 +0300
 description: An open source, motorized table for cnc applications
-img: iotDoor/smart-space.jpg
+img: iot_door/smart-space.jpg
 tags: [cnc, laser, fusion360]
 author: Aaron Peterson
 ---
