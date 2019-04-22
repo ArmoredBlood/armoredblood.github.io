@@ -1,0 +1,65 @@
+---
+layout: post
+title: lazr_bed
+date: 2019-1-28 15:00:20 +0300
+description: : An open source, motorized table for cnc applications
+img: lazr_bed/overview.jpg
+tags: [cnc, laser, fusion360]
+author: Aaron Peterson
+---
+# Introduction
+
+For the latest info on this project, check out the [Gitlab repo](https://gitlab.com/armoredblood/lazr_bed)!
+
+This project started after our previous motorized bed failed fantastically in the makerspace's K40 laser. It fell apart so well, that it was impossible to put back together after several attempts. I decided that now would be the best time to solve all the problems the previous bed had while adding a few features of my own. This was my first big CAD project in Fusion360 and I was excited to finally have a valid opportunity to learn more about it!
+
+The requirements for this project were:
+* scalable dimensions (it can be used in any size laser/cnc application)
+* easily sourceable
+* easily reproducible (no skill required for assembly other than using an allen wrench)
+* complex parts should be 3D printed
+* less than $100 to build
+* open source
+
+# Iteration 1
+![version1]({{site.baseurl}}/assets/img/lazr_bed/version1.png)
+
+The first version was based on an idea of using a single plate of aluminum for components to bolt onto. Roller chain was originally planned for transferring the rotational energy to the lead screws, but I had a hard time sourcing sprockets with the correct inner diameter that weren't $10 a piece! I looked into 3d printing my own sprockets but I was informed by a friend that tried it in an industrial application said they don't last long. 
+
+I was also informed that the lead screws were too large in diamater compared to the smooth rods (both were 8mm diameter) and that I'd have conflicting forces and potentially binding during operation. If I wanted to continue to use smooth rods, I needed to switch to smaller diameter threaded rod or scrap the smooth rods altogether.
+
+After some thought, no one ever changes the z-height in the middle of a laser job (it's possible, but I rarely hear of it) so I decided it would be simpler to just forgo the smooth rods and accept a little wobble when adjusting the height before a job starts.
+
+# Iteration 2
+![version2]({{site.baseurl}}/assets/img/lazr_bed/version2.png)
+
+I decided after some additional thought, that version 1 became too complex (I like things to be simple) and started over from scratch. This version uses GT2 belts and pulleys, which brings the cost down considerably and is much easier to source! This version utilized 15mm x 15mm extrusion from Misumi, which allows you to order custom lengths. 
+
+It still uses a routed plate of aluminum for the top, which I thought was fine. I designed some connecting corner pieces that allow the extrusion to be located and aligned to be fastened together. Two 608 bearings sit inside the corners to hold the lead screws up and allow them to rotate smoothly.
+
+The big problem with this design is that it didn't scale to larger bed sizes without adding considerable costs. Aluminum gets very expensive to source once you get above 12" x 12" squares.
+
+# Iteration 3 - Latest
+![lazr_bed_render]({{site.baseurl}}/assets/img/lazr_bed/lazr_bed_render.png)
+
+This is the current version that has been assembled, tested, and in production at the makerspace!
+
+I moved the corner pieces inside the extrusion which allowed for simpler sizing calculations when scaling the bed to another size.
+
+I moved to 40 tooth GT2 pulleys which give me a 2:1 gearing ratio on the stepper motor to ensure a smoother operation and increased resolution.
+
+I used some drywall lathe from a local hardware store as the top and is ziptied to the top, which helps to tension and tighten the lathe flat along the bed. It works great!
+
+This version was also featured on [Hackaday](https://hackaday.com/2019/01/31/k40-gets-a-leg-up-with-open-source-z-table/)!
+
+# Iteration 4 - Future Updates
+
+I have some ideas to make this better, but the current version works very well and it will be hard to justify the time to get them there. I'd like to revisit the rounded corners of Iteration 2 to get the lead screws closer to the corners and reclaim some bed space.
+
+I've worked on a new belt path design to get the belt out of the middle of the bed and reduce the chance the laser can hit it. I don't see it as a big deal but some people think it is.
+
+![new_belt_path]({{site.baseurl}}/assets/img/lazr_bed/new_belt_path.png)
+
+![new_belt_path_detailed]({{site.baseurl}}/assets/img/lazr_bed/new_belt_path_detailed.png)
+
+

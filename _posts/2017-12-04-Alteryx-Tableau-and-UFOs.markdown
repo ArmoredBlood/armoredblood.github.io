@@ -3,7 +3,7 @@ layout: post
 title: Alteryx, Tableau, and UFOs
 date: 2017-12-04 15:00:20 +0300
 description: I found a dataset on UFO sightings over the past 100 years, scrubbed the data, and did some introductory analysis on the data.
-img: ufo_wallpaper.jpg
+img: ufo/ufo_wallpaper.jpg
 tags: [data, visualization]
 author: Aaron Peterson
 ---
@@ -18,12 +18,12 @@ After a couple hours of messing around, I came up with this simple data scrubbin
 
 Here's a pic of my workflow.
 
-![ufo_flow]({{site.baseurl}}/assets/img/ufo_flow.png)
+![ufo_flow]({{site.baseurl}}/assets/img/ufo/ufo_flow.png)
 
 
-If you're interested in my Alteryx workflow, you can download it from [here](https://github.com/ArmoredBlood/armoredblood.github.io/blob/master/assets/img/UFO_Flow.yxmd)
+If you're interested in my Alteryx workflow, you can download it from [here](https://github.com/ArmoredBlood/armoredblood.github.io/blob/master/assets/img/ufo/UFO_Flow.yxmd)
 
-[here's](https://github.com/ArmoredBlood/armoredblood.github.io/blob/master/assets/img/ufo_sightings_scrubbed.csv) my scrubbed UFO file if you want to see how it got cleaned.
+[here's](https://github.com/ArmoredBlood/armoredblood.github.io/blob/master/assets/img/ufo/ufo_sightings_scrubbed.csv) my scrubbed UFO file if you want to see how it got cleaned.
 
 While this tool is very intuitive to use for the most part, I struggled to get a basic regular expression node to work, and the expression itself wasn't that complicated.
 
@@ -38,28 +38,28 @@ I loaded my csv file into Tableau and starting playing around with the data, see
 
 Here's my findings from playing around with this dataset. I apologize for the small pictures, public.tableau.com doesn't let you export images of your charts, so I had to use screenshots.
 
-![total_sightings]({{site.baseurl}}/assets/img/total_sightings.png)
+![total_sightings]({{site.baseurl}}/assets/img/ufo/total_sightings.png)
 
 
 The US has been killin' it at finding unknown flying stuff
 
-![time_sightings]({{site.baseurl}}/assets/img/time_sightings.png)
+![time_sightings]({{site.baseurl}}/assets/img/ufo/time_sightings.png)
 
 
 This dataset only goes to 2014, but there was a significant drop that year. I'm curious as to why.
 
 
-![duration_sightings]({{site.baseurl}}/assets/img/duration_sightings.png)
+![duration_sightings]({{site.baseurl}}/assets/img/ufo/duration_sightings.png)
 
 
 The average duration for each sighting was pretty similar between countries.
 
 
-![ufo_shapes]({{site.baseurl}}/assets/img/ufo_shapes.png)
+![ufo_shapes]({{site.baseurl}}/assets/img/ufo/ufo_shapes.png)
 
 
 
-![shapes_us]({{site.baseurl}}/assets/img/shapes_us.png)
+![shapes_us]({{site.baseurl}}/assets/img/ufo/shapes_us.png)
 
 
 I admit this is pretty messy, but shows how varied all these sightings have been.

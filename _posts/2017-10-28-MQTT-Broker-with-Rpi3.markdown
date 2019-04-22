@@ -3,7 +3,7 @@ layout: post
 title: eMQTT Broker + Raspberry Pi + Docker
 date: 2017-10-28 15:00:20 +0300
 description: Guide on how to setup a EMQ message broker in a docker container on a raspberry pi 3 for home automation and IoT experimentation. # Add post description (optional)
-img: code.jpg # Add image post (optional)
+img: mqtt/code.jpg # Add image post (optional)
 tags: [home_automation, raspberry_pi, docker]
 author: Aaron Peterson
 ---
@@ -19,7 +19,7 @@ from their website:
 
 >EMQ is fully open source and licensed under the Apache Version 2.0. EMQ implements both MQTT V3.1 and V3.1.1 protocol specifications, and supports MQTT-SN, CoAP, WebSocket, STOMP and SockJS at the same time.
 
-![emq-diagram]({{site.baseurl}}/assets/img/EMQTT.png)
+![emq-diagram]({{site.baseurl}}/assets/img/mqtt/EMQTT.png)
 
 
 ## Docker

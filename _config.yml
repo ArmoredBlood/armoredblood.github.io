@@ -1,7 +1,7 @@
-title: Brain Dump
+title: Aaron's Portfolio
 email: getmoneygetpaid91@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This blog is my mental dumping ground for all my random projects
+  This site is a mental dumping ground for all my random projects
   and interests. It will include posts about maker culture, coding,
   cnc projects, lasers, open source, sustainable solutions, and whatever else
   I feel interested in at any point in time.
@@ -35,7 +35,7 @@ discus_identifier: ArmoredBlood # Add your discus identifier
 analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 999
 paginate_path: /page:num/
 
 # Build settings
