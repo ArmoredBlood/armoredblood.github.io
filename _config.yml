@@ -35,7 +35,7 @@ discus_identifier: ArmoredBlood # Add your discus identifier
 analytics: # Google Analytics
 
 # Paginate
-paginate: 999
+paginate: 30
 paginate_path: /page:num/
 
 # Build settings
