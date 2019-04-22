@@ -23,12 +23,11 @@ This generates an RSS feed for each episode that we can then submit to every pod
 
 
 # DIY Recording Studio
+I also built a small recording studio in my basement which helps dampen any external sounds and helps reduce the reverberations of my own voice from going into my microphone. It's made out of 2x4's and pocket screws, and covered in professional-grade acoustic blankets!
 ![studio_front]({{site.baseurl}}/assets/img/podcast/studio_front.jpg)
 
-I also built a small recording studio in my basement which helps dampen any external sounds and helps reduce the reverberations of my own voice from going into my microphone. It's made out of 2x4's and pocket screws, and covered in professional-grade acoustic blankets!
-
-![!studio_inside]({{site.baseurl}}/assets/img/podcast/studio_inside.jpg)
-
 I'm currently using a AKG P420 condenser mic on a boom, with a Focusrite Scarlet Solo USB Audio Interface that connects to my linux laptop. This has been a super solid setup that sounds fantastic.
+
+![studio_inside]({{site.baseurl}}/assets/img/podcast/studio_inside.jpg)
 
 
