@@ -15,7 +15,7 @@ This project started after our previous motorized bed failed fantastically in th
 
 The requirements for this project were:
 * scalable dimensions (it can be used in any size laser/cnc application)
-* easily sourceable
+* easily source-able
 * easily reproducible (no skill required for assembly other than using an allen wrench)
 * complex parts should be 3D printed
 * less than $100 to build
@@ -26,7 +26,7 @@ The requirements for this project were:
 
 The first version was based on an idea of using a single plate of aluminum for components to bolt onto. Roller chain was originally planned for transferring the rotational energy to the lead screws, but I had a hard time sourcing sprockets with the correct inner diameter that weren't $10 a piece! I looked into 3d printing my own sprockets but I was informed by a friend that tried it in an industrial application said they don't last long. 
 
-I was also informed that the lead screws were too large in diamater compared to the smooth rods (both were 8mm diameter) and that I'd have conflicting forces and potentially binding during operation. If I wanted to continue to use smooth rods, I needed to switch to smaller diameter threaded rod or scrap the smooth rods altogether.
+I was also informed that the lead screws were too large in diameter compared to the smooth rods (both were 8mm diameter) and that I'd have conflicting forces and potentially binding during operation. If I wanted to continue to use smooth rods, I needed to switch to smaller diameter threaded rod or scrap the smooth rods altogether.
 
 After some thought, no one ever changes the z-height in the middle of a laser job (it's possible, but I rarely hear of it) so I decided it would be simpler to just forgo the smooth rods and accept a little wobble when adjusting the height before a job starts.
 
@@ -48,7 +48,7 @@ I moved the corner pieces inside the extrusion which allowed for simpler sizing 
 
 I moved to 40 tooth GT2 pulleys which give me a 2:1 gearing ratio on the stepper motor to ensure a smoother operation and increased resolution.
 
-I used some drywall lathe from a local hardware store as the top and is ziptied to the top, which helps to tension and tighten the lathe flat along the bed. It works great!
+I used some drywall lathe from a local hardware store as the top and is zip tied to the top, which helps to tension and tighten the lathe flat along the bed. It works great!
 
 This version was also featured on [Hackaday](https://hackaday.com/2019/01/31/k40-gets-a-leg-up-with-open-source-z-table/)!
 

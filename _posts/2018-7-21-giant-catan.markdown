@@ -12,7 +12,7 @@ I made this because I wanted it and it didn't exist. I saw some people with gian
 
 All pieces were designed in the open source vector graphics software Inkscape.
 
-The tiles are a little over 2ft across each, cut out of 3/4" plywod, with a small 1/8" pocket routed out of the center. They were painted with exterior grade paint according to their resource type.
+The tiles are a little over 2ft across each, cut out of 3/4" plywood, with a small 1/8" pocket routed out of the center. They were painted with exterior grade paint according to their resource type.
 ![board]({{site.baseurl}}/assets/img/catan/board.jpg)
 
 The markers are laser cut and engraved cast acrylic about 6" in diameter. They correspond to the exact same markers as in the game.

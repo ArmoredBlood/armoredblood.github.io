@@ -18,7 +18,7 @@ The whole project is soldered onto a custom prototype circuit board. This breaks
 ![stock-ticker-inside]({{site.baseurl}}/assets/img/stock_ticker/ticker-inside.jpg)
 
 # Code
-Particle provides the Particle Cloud IDE which allows me to flash updates to the code remotely, so I don't need to make the trip to my dad's just to fix a bug. This code serves a small web page from the Photon that allows the user to maintain a comma separated string of securities that the Photon will loop through and query the prices for. It will parse the output of the securities' API and display it up on the screen, in differente colors based on the performance of the security.
+Particle provides the Particle Cloud IDE which allows me to flash updates to the code remotely, so I don't need to make the trip to my dad's just to fix a bug. This code serves a small web page from the Photon that allows the user to maintain a comma separated string of securities that the Photon will loop through and query the prices for. It will parse the output of the securities' API and display it up on the screen, in different colors based on the performance of the security.
 
 The code can be found in my [gitlab repo](https://gitlab.com/armoredblood/photon-stock-ticker) if you are interested.
 
