@@ -1083,14 +1083,14 @@ pre code {
 
 .post-card {
   position: relative;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .post-card .post-card-image {
   display: block;
   width: 100%;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
   min-height: 150px;
   background-size: cover;
   background-position: center;
