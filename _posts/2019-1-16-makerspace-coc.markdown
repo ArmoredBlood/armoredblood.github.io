@@ -28,10 +28,3 @@ I borrowed the majority of the wording from the very well written [Contributor C
 I also added a section on basic physical safety.
 
 One important piece that I added to the protected classes was "skill level" and "chosen craft" which I thought was needed as I've heard of people disrespecting a certain way of doing things (based on experience) or craft (ex: using a cnc router vs. hand tools)
-
-
-
-
-![smart-space]({{site.baseurl}}/assets/img/iot_door/smart-space.jpg)
-
-
