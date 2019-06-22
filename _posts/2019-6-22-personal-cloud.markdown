@@ -1,6 +1,6 @@
 ---
 layout: post
-title: private cloud with Nextcloud
+title: Private Cloud using Nextcloud
 date: 2019-6-22 15:00:20 +0300
 description: A personal, open source cloud using AWS, Wasabi, and Nextcloud
 img: private_cloud/cloud.jpg
@@ -133,6 +133,6 @@ Setting up HTTPS inolves two steps: configure Nextcloud to listen on port 443 (h
 # Keeping your VM updated
 Thanks to the technology chosen, we don't need to worry about keeping the server updated, it will do it all by itself
 
-* Ubuntu server now cmoes with a package called [unattended-upgrades](https://help.ubuntu.com/lts/serverguide/automatic-updates.html) which will keep the server updated automatically. It's enabled by default on Ubuntu.
+* Ubuntu server now comes with a package called [unattended-upgrades](https://help.ubuntu.com/lts/serverguide/automatic-updates.html) which will keep the server updated automatically. It's enabled by default on Ubuntu.
 
 * Snapd [checks a couple times a day](https://docs.snapcraft.io/keeping-snaps-up-to-date) for updates to the installed snap packages and updates them as necessary.
