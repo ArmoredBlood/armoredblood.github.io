@@ -136,3 +136,14 @@ Thanks to the technology chosen, we don't need to worry about keeping the server
 * Ubuntu server now comes with a package called [unattended-upgrades](https://help.ubuntu.com/lts/serverguide/automatic-updates.html) which will keep the server updated automatically. It's enabled by default on Ubuntu.
 
 * Snapd [checks a couple times a day](https://docs.snapcraft.io/keeping-snaps-up-to-date) for updates to the installed snap packages and updates them as necessary.
+
+# Updates
+* 6-23-19
+    * I've been experiencing some issues with Nextcloud crashing when my wife's iPhone tries to upload two thousand images. I updated the wait_timout parameter via the dbdriveroptions config parameter in the config.php
+        ```
+        'dbdriveroptions' => array(
+        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET wait_timeout = 28800'
+        ), 
+        ```
+    * I also created a 2gb swap file since this VM only has 512mb and I think it might be running out of ram at times. I followed instructions [here](https://linuxize.com/post/create-a-linux-swap-file/) on how to create and persist a swapfile.
+    * We'll see if these help any.
