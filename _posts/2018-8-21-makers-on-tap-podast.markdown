@@ -3,7 +3,6 @@ layout: post
 title: Makers on Tap Podcast
 date: 2018-8-21 15:00:20 +0300
 description: Three makerspace directors drink and talk about running a makerspace, maker news, and maker culture.
-img: podcast/motmrrf.jpg
 tags: [audio, podcast]
 author: Aaron Peterson
 ---
