@@ -27,6 +27,4 @@ I also built a small recording studio in my basement which helps dampen any exte
 
 I'm currently using a AKG P420 condenser mic on a boom, with a Focusrite Scarlet Solo USB Audio Interface that connects to my linux laptop. This has been a super solid setup that sounds fantastic.
 
-![studio_inside]({{site.baseurl}}/assets/img/podcast/studio_inside.jpg)
-
 
