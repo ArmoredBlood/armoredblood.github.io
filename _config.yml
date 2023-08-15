@@ -10,9 +10,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Aaron Peterson # add your name
-author-pic: aaron.jpg
-about-author: My name is Aaron Peterson. I make things and share them with others. You should too.
+author: Sage Peterson # add your name
+author-pic: 
+about-author: My name is Sage. I make things and share them with others. You should too.
 
 # Contact links
 email: getmoneygetpaid91@gmail.com
@@ -20,8 +20,8 @@ phone: # Add your Phone number
 website: github.com/ArmoredBlood
 linkedin: aaron-peterson-80a50633/
 github: ArmoredBlood # Add your Github handle
-twitter:  Analyst_Aaron
-facebook: # Add your Facebook handle
+twitter:   #
+facebook:  # Add your Facebook handle
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
